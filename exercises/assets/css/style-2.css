@@ -10,6 +10,21 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+body { background-color: purple; }
+
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+}
+ 
+/* Mobiles */
+@media (max-width: 767px) {
+    body { padding: 8% 5% }
+}
+
+h1, h2, p{
+    color: white;
+}
 
 h1 {
     font-size: 84px;
@@ -32,3 +47,5 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+a { color: white; }
