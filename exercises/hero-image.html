@@ -7,7 +7,8 @@
     <title>Hero Block with Text</title>
     <meta name="description" content="An above-the-fold hero block with animated text and various background colours.">
 
-    <link rel="stylesheet" href="./assets/css/hero-text.css">
+    <link rel="preload" href="assets/img/business.jpg" as="image">
+    <link rel="stylesheet" href="./assets/css/hero-image.css">
 
 <style type="text/css" id="operaUserStyle"></style></head>
 
@@ -21,7 +22,13 @@
             <h1 class="slide-in-top">Jon Gouspy</h1>
             <h2 class="slide-in-left">Pathetic Web Developer</h2>
         </div>
-    
+
+        <div class="hero-bg-media">
+            <img src="assets/img/business.jpg" alt="sample background image">
+        </div>
+   
+        <div class="bg-overlay"></div>
+        
         <p><a href="../index.html">Back to Home page</a></p>
     
     </header>
