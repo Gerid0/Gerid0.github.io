@@ -11,10 +11,17 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+:root {
+    --gold:#E8C872;
+    --yellow: #FFF3CF;
+    --late: #C9D7DD;
+    --blue: #637A9F;
+}
+
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: lightgreen;
+    background-color: var(--blue);
 }
 
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
@@ -34,6 +41,7 @@ h1 {
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
+    color: var(--gold);
 }
 
 h2 {
@@ -41,6 +49,7 @@ h2 {
     letter-spacing: 6px;
     margin-bottom: 48px;
     line-height: 1.2;
+    color: azure;
 }
 
 h3 {
@@ -49,11 +58,23 @@ h3 {
     margin-bottom: 20px;
     line-height: 1.2;
     text-transform: uppercase;
+    color: azure;
 }
 
 p {
     font-size: 20px;
     margin-bottom: 16px;
+    color: white;
 }
 
-a { color: darkgreen; }
+a:link,
+a:visited { color: var(--yellow) }
+
+a:focus,
+a:hover,
+a:active { color: var(--gold) }
+
+img {
+    border-radius: 2%;
+    border-color: aliceblue;
+}

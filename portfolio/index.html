@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jon Gouspy | Web Design and Development Portfolio</title>
     <meta name="description" content="Check out some of my web design and development projects.">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img//main-favicon-32x32.png">    
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img//main-favicon-16x16.png">
+	    
+    <link rel="manifest" href="assets/img/main-site.webmanifest">
 
 	<!-- Preload large image -->
 
@@ -36,20 +41,32 @@
             <ul class="links-wrapper">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="../store/index.html">Store</a></li>
+                <li><a href="./store/index.html">Store</a></li>
+				<li><a href="#tools">Tools</a></li>
                 <li><a class="btn btn-solid btn-soft" id="btn-cta" href="../contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
             </ul>
             </div>
         </div>
     </nav>
     
-    <header class="theme-dark text-center-mobile">
-        <div class="container-text w-1140px">
-            <h1>Portfolio</h1>
-            <h2>Below you can see a selection of my web design and front-end development projects.</h2>
-        </div>
-        
-    </header><!-- header ends here -->
+
+	<!-- header starts here -->
+	<header class="theme-dark hero-bg text-center-mobile desktop-min-height-90vh">
+
+		<div class="container-text">
+			<h1 class="text-shadow">Portfolio</h1>
+			<h2 class="text-shadow">Below you can see a selection of my web design and front-end development projects.</h2>
+		</div>
+
+		
+
+		<div class="container-media">
+				<video loop="" playsinline="" muted="" autoplay="" poster="https://lunevedy.com/ui/assets/img/1920x800-center.jpg" class="background-video" disablepictureinpicture="" preload="auto"><source src="../assets/videos/hero_video.mp4" type="video/mp4"></video></div>
+
+		<div class="container-overlay"></div>
+
+	</header>
+	<!-- header ends here -->
         
         
     <!-- main content with sections -->
@@ -81,11 +98,11 @@
 
 			<div class="col-3">
 				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
-					<a href="../store/index.html"><img src="../assets/img/store.png" alt="Placeholder image"></a>
+					<a href="./store/index.html"><img src="../assets/img/store.png" alt="Placeholder image"></a>
 				</figure>
 				<h3>Online Store</h3>
 				<p>An online store offering books on web design with affiliate links to Amazon.</p>
-				<a href="../store/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+				<a href="./store/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
             <div class="col-3">
@@ -116,9 +133,114 @@
 			</div>
 
 		</div> <!-- End three-column flexbox grid -->
-	</section><!-- section ends here -->
-   
-   
+	</section>
+	
+	<!-- section ends here -->
+    
+
+	<!-- section starts here -->
+
+	<section class="section-selector-2 theme-dark w-1024px" id="tools">
+
+		<div class="col-1 text-center w-820px">
+			<h2>TOOLS</h2>
+			<h3>The different languages I use daily</h3>
+		</div>
+
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3 cols-gap-2 rows-gap-3 cols-background cols-padding cols-corners-soft rad-10px text-center">
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/c.png" alt="Placeholder image">
+				</figure>
+				<h3>C</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/c++.png" alt="Placeholder image">
+				</figure>
+				<h3>C++</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/csharp.png" alt="Placeholder image">
+				</figure>
+				<h3>C#</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/python.png" alt="Placeholder image">
+				</figure>
+				<h3>PYTHON</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/casio.png" alt="Placeholder image">
+				</figure>
+				<h3>CASIO</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/rust.png" alt="Placeholder image">
+				</figure>
+				<h3>RUST</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/kotlin.png" alt="Placeholder image">
+				</figure>
+				<h3>KOTLIN</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/ocaml.png" alt="Placeholder image">
+				</figure>
+				<h3>OCAML</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/html.png" alt="Placeholder image">
+				</figure>
+				<h3>HTML</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/css.png" alt="Placeholder image">
+				</figure>
+				<h3>CSS</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/java.png" alt="Placeholder image">
+				</figure>
+				<h3>JAVA</h3>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="../assets/img/javascript.png" alt="Placeholder image">
+				</figure>
+				<h3>JAVASCRIPT</h3>
+			</div>
+
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+
+	<!-- section ends here -->
+
     </main>
 
     <!-- footer -->
@@ -137,8 +259,8 @@
 		</ul>
 
 		<ul class="footer-icons">
-			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/jon-gouspy-a51b20218" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/JonGouspy" target="_blank"><i class="fab fa-github-square"></i></a></li>
 		</ul>
 
 		<p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>

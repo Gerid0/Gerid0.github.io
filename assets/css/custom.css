@@ -7,6 +7,7 @@
     --green-003: #0a5955;
     --green-004: #001e1d;
     --green-005: #4dac4f;
+    --green-006: #2b4645;
     --red-001: #e16162;
 }
 
@@ -43,6 +44,8 @@ header.theme-dark  p { color: var(--green-001) }
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
+header img { border-radius: 100% }
+
 /* SECTIONS */
 section.theme-dark   { background-color: var(--green-003) }
 
@@ -75,3 +78,22 @@ footer.theme-dark > p.privacy a:visited { color: var(--green-005) }
 footer.theme-dark > p.privacy a:focus,
 footer.theme-dark > p.privacy a:hover,
 footer.theme-dark > p.privacy a:active { color: var(--yellow-001) }
+
+.section-selector-2.theme-dark { background-color: var(--green-002) }
+.section-selector-2.theme-dark .cols-background .col-3 { background-color: var(--green-006) }
+.section-selector-2.theme-dark .cols-background .col-3 img {
+    width: 50px;
+    padding-top: 5%;
+}
+
+/* CONTACT BOX */
+.theme-dark #email-form {
+    background-color: var(--green-002);
+    border-radius: 2%;
+}
+
+#email-form #btn-submit {
+    background-color: var(--green-005);
+    border-color: var(--green-005);
+    border-radius: 5px;
+}
