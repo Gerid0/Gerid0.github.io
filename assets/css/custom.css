@@ -1,13 +1,23 @@
+:root {
+    --white-001: #fffffe;
+    --late-001: #e8e4e6;
+    --yellow-001: #f9bc60;
+    --green-001: #abd1c6;
+    --green-002: #004643;
+    --green-003: #001e1d;
+    --red-001: #e16162;
+}
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
 
-header.theme-dark   { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: var(--green-001) }
 
-header.theme-dark  h1 { color: var(--sky-400); }
+header.theme-dark   { background-color: var(--green-002) }
 
-section.theme-dark   { background-color: #0f172a }
+header.theme-dark  h1 { color: var(--late-001); }
 
-footer.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: var(--green-002) }
+
+footer.theme-dark   { background-color: var(--green-003) }
 
 
 
